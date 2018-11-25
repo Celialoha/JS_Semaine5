@@ -55,29 +55,3 @@ function Chrono()
 }
 
 chrono = new Chrono()
-
-/*
-function start() 
-{
-    if (!timer_is_on) 
-    {
-        timer_is_on = 1;
-        t = setInterval(timedCount, 100);
-    }
-}
-
-function pause() 
-{
-    clearTimeout(t);
-    timer_is_on = 0;
-}
-
-function stop() 
-{
-    minutes = 0;
-    secondes = 0;
-    heures = 0;
-    clearTimeout(t);
-    timer_is_on = 0;
-}
-*/
